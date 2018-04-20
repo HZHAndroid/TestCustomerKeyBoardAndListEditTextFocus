@@ -51,5 +51,5 @@
      * <br />
      */
 ### 提示
-** 1.重点查看列表的适配器(EditListViewAdapter: ListView适配器 EditRecyclerViewAdapter: RecyclerView适配器),<br />
+* 1.重点查看列表的适配器(EditListViewAdapter: ListView适配器 EditRecyclerViewAdapter: RecyclerView适配器),<br />
     因为有些逻辑性的细节，跟具体的业务有关系，本项目的适配器相当于一个模版例子，可以查看适配器的具体源码。
