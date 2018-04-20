@@ -1,7 +1,7 @@
 # TestCustomerKeyBoardAndListEditTextFocus
 自定义键盘，可以自动向上顶起，解决ListView/RecyclerView使用系统键盘时候的焦点和值错位的问题，滚动视图自动隐藏键盘。
 
-### 操作
+### 操作(EditTextScrollViewUtil的说明)
 /**
      * 重点：a. 为EditText设置tag的时候，放在视图生成完成后的第一行<br />
      *
@@ -50,3 +50,6 @@
      * 5.在Activity/Fragment销毁的时候调用onDestroy方法<br />
      * <br />
      */
+### 提示
+** 1.重点查看列表的适配器(EditListViewAdapter: ListView适配器 EditRecyclerViewAdapter: RecyclerView适配器),<br />
+    因为有些逻辑性的细节，跟具体的业务有关系，本项目的适配器相当于一个模版例子，可以查看适配器的具体源码。
