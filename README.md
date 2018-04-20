@@ -1,7 +1,7 @@
 # TestCustomerKeyBoardAndListEditTextFocus
 自定义键盘，可以自动向上顶起，解决ListView/RecyclerView使用系统键盘时候的焦点和值错位的问题，滚动视图自动隐藏键盘。
 
-# 操作
+### 操作
 /**
      * 重点：a. 为EditText设置tag的时候，放在视图生成完成后的第一行<br />
      *
